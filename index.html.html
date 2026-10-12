@@ -1,0 +1,1255 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultimate professional directory for European work visas, official job portals, scholarships, and migration guidelines by Hassan Jatoi.">
+    <title>EuropeHub | Ultimate Visa, Jobs & Study Portal</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#061334',
+                        brandBlue: '#155eef',
+                        brandCyan: '#06b6d4',
+                        gold: '#fbbf24',
+                        darkGold: '#d97706'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for magnificent icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, #1e3a8a 0%, #061334 60%, #020617 100%);
+        }
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 25px -5px rgba(21, 94, 239, 0.15), 0 8px 10px -6px rgba(21, 94, 239, 0.1);
+        }
+        .pulse-whatsapp {
+            box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+            animation: pulse-green 2s infinite;
+        }
+        @keyframes pulse-green {
+            0% {
+                transform: scale(0.98);
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 14px rgba(34, 197, 94, 0);
+            }
+            100% {
+                transform: scale(0.98);
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-400 selection:text-slate-900">
+
+    <div class="bg-slate-950 text-slate-300 text-xs px-4 py-2.5 border-b border-slate-800 flex flex-wrap justify-between items-center gap-2">
+        <div class="flex items-center gap-2 mx-auto sm:mx-0">
+            <span class="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>🌍 <strong class="text-amber-400 font-semibold">EUROPE VISA & JOBS HUB</strong> — Verified Official Portals Directory</span>
+        </div>
+        <div class="flex items-center gap-4 mx-auto sm:mx-0 text-slate-400">
+            <span><i class="fa-solid fa-shield-check text-amber-400 mr-1"></i> Independent Resource</span>
+            <span><i class="fa-solid fa-code text-cyan-400 mr-1"></i> Crafted by Hassan Jatoi</span>
+        </div>
+    </div>
+
+    <header class="hero-gradient text-white relative overflow-hidden pb-20 pt-6">
+        <!-- Decorative background glow blobs -->
+        <div class="absolute -top-40 -right-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-60 -left-20 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Navigation Bar -->
+            <nav class="flex items-center justify-between py-4 border-b border-white/10 mb-12">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-400 to-amber-600 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-black tracking-wider text-white">EUROPE<span class="text-amber-400">HUB</span></span>
+                        <span class="block text-[10px] text-slate-400 tracking-widest font-semibold uppercase">By Hassan Jatoi</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-300">
+                    <a href="#services" class="hover:text-amber-400 transition-colors">Visa & Study</a>
+                    <a href="#job-portals" class="hover:text-amber-400 transition-colors">Job Portals</a>
+                    <a href="#countries" class="hover:text-amber-400 transition-colors">All Countries</a>
+                    <a href="#whatsapp-section" class="hover:text-emerald-400 transition-colors"><i class="fa-brands fa-whatsapp mr-1 text-emerald-400"></i> Contact Us</a>
+                    <a href="#disclaimer" class="hover:text-amber-400 transition-colors">Disclaimer</a>
+                </div>
+                <div>
+                    <a href="https://wa.me/923000000000?text=Hello%20Hassan,%20I%20want%20help%20with%20Europass%20CV%20and%20European%20visas" target="_blank" rel="noopener" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-4 py-2.5 rounded-xl text-xs shadow-lg transition-transform hover:scale-105 inline-flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Assistant
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Hero Content -->
+            <div class="grid lg:grid-cols-12 gap-12 items-center py-6">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-amber-400 text-xs font-extrabold tracking-wider uppercase">
+                        <i class="fa-solid fa-bolt text-amber-300"></i> Your Gateway to European Opportunities
+                    </div>
+                    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-none">
+                        Find your next <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-cyan-400">European Career.</span>
+                    </h1>
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl font-normal leading-relaxed">
+                        Access official government immigration portals, verified national employment agencies, professional job boards, and scholarship directories across all European nations in one streamlined hub.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#countries" class="bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-extrabold px-6 py-3.5 rounded-xl shadow-xl transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-3">
+                            <i class="fa-solid fa-magnifying-glass"></i> Explore Country Portals
+                        </a>
+                        <a href="https://wa.me/923000000000?text=Hi,%20I%20need%20guidance%20for%20Europass%20CV%20and%20Europe%20Jobs" target="_blank" rel="noopener" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl transition-all inline-flex items-center gap-3 shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Get CV Help on WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Side Card / Stats -->
+                <div class="lg:col-span-5">
+                    <div class="glass-panel p-6 sm:p-8 rounded-3xl shadow-2xl relative">
+                        <div class="absolute -top-3 -right-3 bg-gradient-to-r from-amber-400 to-yellow-500 text-slate-950 font-black text-xs px-3 py-1 rounded-full shadow-md uppercase tracking-wider">
+                            <i class="fa-solid fa-star mr-1"></i> Verified Links
+                        </div>
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-2xl bg-blue-600/30 border border-blue-400/30 flex items-center justify-center text-3xl text-amber-400 shadow-inner">
+                                <i class="fa-solid fa-globe-europe"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Direct Official Access</h3>
+                                <p class="text-xs text-slate-300">No middlemen. Direct government domains.</p>
+                            </div>
+                        </div>
+                        <p class="text-sm text-slate-300 mb-6 leading-relaxed">
+                            Visa guidelines, eligibility matrices, processing times, and employment platforms updated regularly for non-EU & EU applicants.
+                        </p>
+                        <div class="grid grid-cols-3 gap-3">
+                            <div class="bg-white/5 border border-white/10 rounded-2xl p-3 text-center">
+                                <span class="block text-amber-400 font-black text-lg">EU</span>
+                                <span class="text-[11px] text-slate-400">Immigration</span>
+                            </div>
+                            <div class="bg-white/5 border border-white/10 rounded-2xl p-3 text-center">
+                                <span class="block text-cyan-400 font-black text-lg">30+</span>
+                                <span class="text-[11px] text-slate-400">Countries</span>
+                            </div>
+                            <div class="bg-white/5 border border-white/10 rounded-2xl p-3 text-center">
+                                <span class="block text-emerald-400 font-black text-lg">100%</span>
+                                <span class="text-[11px] text-slate-400">Support</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-20">
+        <!-- Important Notice -->
+        <div class="bg-white border border-slate-200/80 rounded-2xl p-5 sm:p-6 shadow-xl flex items-start gap-4">
+            <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex-shrink-0 flex items-center justify-center text-amber-600 text-lg">
+                <i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+            <div class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                <strong class="text-slate-900 font-bold block mb-1">Important Notice regarding External Links:</strong>
+                This platform links directly to official EU and national government authorities. We do not issue visas, guarantee job placement, or process immigration documents. Always verify official fees, application deadlines, and visa requirements directly on official state websites.
+            </div>
+        </div>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-xs font-black tracking-wider text-blue-600 uppercase bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Core Resources</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 tracking-tight">Explore by Your Goal</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">Select the specialized pathway you wish to pursue to access premier European Union resource centers.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-id-card"></i>
+                        </div>
+                        <span class="inline-block bg-emerald-50 text-emerald-700 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Work & Immigration</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Work Visa Information</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Comprehensive country-specific guides about work permits, EU Blue Cards, highly skilled residence routes, and non-EU national policies.</p>
+                    </div>
+                    <a href="https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm hover:text-blue-700 transition-colors">
+                        <span>Open EU Immigration Portal</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <span class="inline-block bg-sky-50 text-sky-700 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Short Stays & Tourism</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Visit & Schengen Visa</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Review the uniform Schengen visa policy, calculate short-stay limits, and follow destination country application instructions.</p>
+                    </div>
+                    <a href="https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa_en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm hover:text-blue-700 transition-colors">
+                        <span>Open EU Visa Policy</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <span class="inline-block bg-indigo-50 text-indigo-700 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Higher Education</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Student Visa & Study</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Explore top European study destinations, English-taught degree programs, scholarship opportunities, and student residence permits.</p>
+                    </div>
+                    <a href="https://education.ec.europa.eu/study-in-europe" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm hover:text-blue-700 transition-colors">
+                        <span>Open Study in Europe</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm" id="job-portals">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <span class="inline-block bg-amber-50 text-amber-700 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Employment Network</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Europe Jobs Portal (EURES)</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Search millions of live job vacancies across 31 European countries and explore living-and-working conditions.</p>
+                    </div>
+                    <a href="https://eures.europa.eu/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm hover:text-blue-700 transition-colors">
+                        <span>Open EURES Portal</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-atom"></i>
+                        </div>
+                        <span class="inline-block bg-purple-50 text-purple-700 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Research & Science</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Research & Academic Jobs</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Find international research fellowships, postdoc positions, funding grants, and career support in premier European institutions.</p>
+                    </div>
+                    <a href="https://euraxess.ec.europa.eu/jobs" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm hover:text-blue-700 transition-colors">
+                        <span>Open EURAXESS Jobs</span> <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-white border border-slate-200 rounded-3xl p-6 card-hover flex flex-col justify-between shadow-sm" id="tools">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-100 text-emerald-600 flex items-center justify-center text-xl mb-5 shadow-sm">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <span class="inline-block bg-emerald-100 text-emerald-800 text-[10px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full mb-3">Personalized CV Assistance</span>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Europass CV Expert Help</h3>
+                        <p class="text-slate-600 text-sm mb-6 leading-relaxed">Get direct guidance to build professional Europass CVs, cover letters, and documents formatted specifically for European hiring managers.</p>
+                    </div>
+                    <a href="https://wa.me/923000000000?text=Hi%20Hassan,%20I%20want%20to%20build%20a%20Europass%20CV" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-emerald-600 font-bold text-sm hover:text-emerald-700 transition-colors">
+                        <span>Contact via WhatsApp</span> <i class="fa-brands fa-whatsapp text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 border-t border-slate-200">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-xs font-black tracking-wider text-emerald-600 uppercase bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Official Employment Hubs</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 tracking-tight">National Job Portals</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">Direct links to official public employment services and job-search databases operated by European governments.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Germany -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇩🇪</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Germany — Job Search</h3>
+                            <p class="text-xs text-slate-500">Federal Employment Agency</p>
+                        </div>
+                    </div>
+                    <a href="https://www.arbeitsagentur.de/jobsuche/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- France -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇫🇷</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">France — France Travail</h3>
+                            <p class="text-xs text-slate-500">Public employment service</p>
+                        </div>
+                    </div>
+                    <a href="https://www.francetravail.fr/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Italy -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇮🇹</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Italy — Cliclavoro</h3>
+                            <p class="text-xs text-slate-500">Employment services portal</p>
+                        </div>
+                    </div>
+                    <a href="https://www.cliclavoro.gov.it/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Netherlands -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇳🇱</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Netherlands — Werk.nl</h3>
+                            <p class="text-xs text-slate-500">Public employment database</p>
+                        </div>
+                    </div>
+                    <a href="https://www.werk.nl/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Sweden -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇸🇪</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Sweden — Arbetsförmedlingen</h3>
+                            <p class="text-xs text-slate-500">Public employment service</p>
+                        </div>
+                    </div>
+                    <a href="https://arbetsformedlingen.se/other-languages/english-engelska" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Finland -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇫🇮</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Finland — Job Market</h3>
+                            <p class="text-xs text-slate-500">Finland's employment portal</p>
+                        </div>
+                    </div>
+                    <a href="https://tyomarkkinatori.fi/en" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Austria -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇦🇹</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Austria — AMS</h3>
+                            <p class="text-xs text-slate-500">Public job-seeker services</p>
+                        </div>
+                    </div>
+                    <a href="https://www.ams.at/arbeitsuchende" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Poland -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇵🇱</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Poland — Central Job Offers</h3>
+                            <p class="text-xs text-slate-500">Official employment database</p>
+                        </div>
+                    </div>
+                    <a href="https://oferty.praca.gov.pl/portal/index.cbop" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Norway -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇳🇴</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Norway — Arbeidsplassen</h3>
+                            <p class="text-xs text-slate-500">Norwegian Labour and Welfare</p>
+                        </div>
+                    </div>
+                    <a href="https://arbeidsplassen.nav.no/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 border-t border-slate-200">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-xs font-black tracking-wider text-indigo-600 uppercase bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">Scholarships & Universities</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 tracking-tight">Study & Scholarship Resources</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">Official portals for international students seeking higher education programs and scholarships.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇩🇪</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Germany — DAAD</h3>
+                            <p class="text-xs text-slate-500">Programmes & scholarships</p>
+                        </div>
+                    </div>
+                    <a href="https://www.daad.de/en/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇫🇷</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">France — Campus France</h3>
+                            <p class="text-xs text-slate-500">Higher education guidance</p>
+                        </div>
+                    </div>
+                    <a href="https://www.campusfrance.org/en" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇸🇪</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Sweden — Study in Sweden</h3>
+                            <p class="text-xs text-slate-500">Official student portal</p>
+                        </div>
+                    </div>
+                    <a href="https://studyinsweden.se/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇫🇮</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Finland — Study in Finland</h3>
+                            <p class="text-xs text-slate-500">Degree programs & options</p>
+                        </div>
+                    </div>
+                    <a href="https://www.studyinfinland.fi/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇳🇱</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Netherlands — Study in NL</h3>
+                            <p class="text-xs text-slate-500">Dutch higher education</p>
+                        </div>
+                    </div>
+                    <a href="https://www.studyinnl.org/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-5 flex items-center justify-between shadow-sm card-hover">
+                    <div class="flex items-center gap-4">
+                        <span class="text-3xl">🇮🇹</span>
+                        <div>
+                            <h3 class="text-base font-bold text-slate-900">Italy — Study in Italy</h3>
+                            <p class="text-xs text-slate-500">Universities & scholarships</p>
+                        </div>
+                    </div>
+                    <a href="https://studyinitaly.esteri.it/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-slate-100 hover:bg-blue-600 hover:text-white text-slate-700 flex items-center justify-center transition-colors"><i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="countries" class="py-16 border-t border-slate-200">
+            <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-8 gap-6">
+                <div>
+                    <span class="text-xs font-black tracking-wider text-amber-600 uppercase bg-amber-50 px-3 py-1 rounded-full border border-amber-200">All European Nations</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2 tracking-tight">Country-by-Country Official Links</h2>
+                </div>
+                
+                <!-- Search & Filters -->
+                <div class="flex flex-wrap gap-3">
+                    <div class="relative flex-1 sm:w-72">
+                        <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                            <i class="fa-solid fa-search"></i>
+                        </span>
+                        <input id="q" type="search" placeholder="Search country (e.g. Germany, Poland...)" class="w-full pl-10 pr-4 py-3 bg-white border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 shadow-sm transition-all">
+                    </div>
+                    <div class="relative">
+                        <select id="filter" class="px-4 py-3 bg-white border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 shadow-sm transition-all text-slate-700 font-medium cursor-pointer">
+                            <option value="all">All Resource Types</option>
+                            <option value="work">Work / Immigration</option>
+                            <option value="visit">Visit / Schengen</option>
+                            <option value="study">Study & Education</option>
+                            <option value="jobs">Job Portals</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Countries Grid -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" id="countryGrid">
+                
+                <!-- Germany -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Germany" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇩🇪</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Germany</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.make-it-in-germany.com/en/visa-residence" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Work & Residence</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.arbeitsagentur.de/jobsuche/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Job Search</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.daad.de/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> DAAD Study</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- France -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="France" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇫🇷</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">France</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://france-visas.gouv.fr/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Official Visa Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.francetravail.fr/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> France Travail Jobs</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.campusfrance.org/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> Campus France</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Italy -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Italy" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇮🇹</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Italy</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.esteri.it/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-building-columns mr-1.5"></i> Foreign Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.cliclavoro.gov.it/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Cliclavoro Jobs</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://studyinitaly.esteri.it/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> Study in Italy</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spain -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Spain" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇪🇸</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Spain</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.exteriores.gob.es/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-building-columns mr-1.5"></i> Foreign Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.sepe.es/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> SEPE Job Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portugal -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Portugal" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇵🇹</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Portugal</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://portaldascomunidades.mne.gov.pt/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Consular Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.iefp.pt/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> IEFP Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Poland -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Poland" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇵🇱</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Poland</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.gov.pl/web/udsc-en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Foreigners Office</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://oferty.praca.gov.pl/portal/index.cbop" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Public Job Offers</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Netherlands -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Netherlands" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇳🇱</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Netherlands</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://ind.nl/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> IND Immigration</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.werk.nl/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Werk.nl Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.studyinnl.org/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> Study in NL</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sweden -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Sweden" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇸🇪</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Sweden</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.migrationsverket.se/English.html" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Migration Agency</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://arbetsformedlingen.se/other-languages/english-engelska" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Arbetsförmedlingen</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://studyinsweden.se/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> Study in Sweden</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Finland -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Finland" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇫🇮</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Finland</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://migri.fi/en/home" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Immigration Service</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://tyomarkkinatori.fi/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Job Market Finland</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.studyinfinland.fi/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-graduation-cap mr-1.5 text-indigo-500"></i> Study in Finland</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Norway -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Norway" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇳🇴</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Norway</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.udi.no/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> UDI Immigration</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://arbeidsplassen.nav.no/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Arbeidsplassen</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Austria -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Austria" data-type="work visit study jobs">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇦🇹</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Austria</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.migration.gv.at/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Migration Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.ams.at/arbeitsuchende" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> AMS Job Seeker</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ireland -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Ireland" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇮🇪</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Ireland</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.irishimmigration.ie/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Immigration Service</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.gov.ie/en/campaigns/c2340d-jobs/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Employment Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Switzerland -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Switzerland" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇨🇭</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Switzerland</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.sem.admin.ch/sem/en/home.html" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> State Secretariat (SEM)</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.arbeit.swiss/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Arbeit.swiss</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Denmark -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Denmark" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇩🇰</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Denmark</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.nyidanmark.dk/en-GB" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> New to Denmark</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://jobnet.dk/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Jobnet.dk</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Belgium -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Belgium" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇧🇪</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Belgium</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://dofi.ibz.be/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Immigration Office</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.vdab.be/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> VDAB Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Czechia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Czechia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇨🇿</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Czechia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://mv.gov.cz/mvcren/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Interior Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.uradprace.cz/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Labour Office</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Greece -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Greece" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇬🇷</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Greece</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://migration.gov.gr/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Migration Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.dypa.gov.gr/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> DYPA Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Romania -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Romania" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇷🇴</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Romania</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://igi.mai.gov.ro/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Immigration Inspectorate</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.anofm.ro/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> ANOFM Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hungary -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Hungary" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇭🇺</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Hungary</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://oif.gov.hu/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Immigration Authority</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.munka.hu/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> National Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Croatia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Croatia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇭🇷</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Croatia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://mup.gov.hr/aliens-281621/stay-and-work/281622" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Stay & Work</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.hzz.hr/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> HZZ Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slovakia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Slovakia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇸🇰</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Slovakia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.minv.sk/?migration=" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Interior Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.upsvr.gov.sk/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Labour Office</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slovenia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Slovenia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇸🇮</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Slovenia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.gov.si/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Government Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.ess.gov.si/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Employment Service</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luxembourg -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Luxembourg" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇱🇺</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Luxembourg</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://guichet.public.lu/en/citoyens/immigration.html" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Guichet Immigration</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://adem.public.lu/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> ADEM Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Malta -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Malta" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇲🇹</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Malta</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://identita.gov.mt/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Identità Malta</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://jobsplus.gov.mt/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Jobsplus Portal</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cyprus -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Cyprus" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇨🇾</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Cyprus</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://mfa.gov.cy/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Foreign Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.pes.gov.cy/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Public Employment</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Iceland -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Iceland" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇮🇸</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Iceland</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://island.is/en/o/directorate-of-immigration" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Directorate of Immigration</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://vinnumumalastofnun.is/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Vinnumálastofnun</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Latvia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Latvia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇱🇻</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Latvia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.pmlp.gov.lv/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Migration Authority</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.nva.gov.lv/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> State Employment Agency</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lithuania -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Lithuania" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇱🇹</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Lithuania</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://migracija.lrv.lt/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Migration Department</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://uzt.lt/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Employment Service</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estonia -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Estonia" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇪🇪</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Estonia</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.politsei.ee/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-passport mr-1.5"></i> Police & Border Guard</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.tootukassa.ee/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Unemployment Insurance</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bulgaria -->
+                <div class="country bg-white border border-slate-200 rounded-2xl p-5 shadow-sm card-hover flex flex-col justify-between" data-name="Bulgaria" data-type="work visit study">
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <span class="text-3xl">🇧🇬</span>
+                            <h3 class="font-extrabold text-slate-900 text-lg">Bulgaria</h3>
+                        </div>
+                        <div class="space-y-2 text-xs">
+                            <a href="https://www.mfa.bg/en" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-blue-50/50 hover:bg-blue-100 text-blue-700 font-bold transition-colors">
+                                <span><i class="fa-solid fa-id-card mr-1.5"></i> Foreign Ministry</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                            <a href="https://www.az.government.bg/en/" target="_blank" rel="noopener" class="flex items-center justify-between p-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold transition-colors">
+                                <span><i class="fa-solid fa-briefcase mr-1.5 text-amber-500"></i> Employment Agency</span>
+                                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Empty search notice -->
+            <div id="empty" class="hidden text-center py-16 bg-white border border-slate-200 rounded-2xl mt-4">
+                <div class="text-4xl mb-3">🔍</div>
+                <h3 class="text-lg font-bold text-slate-900">No matching country found</h3>
+                <p class="text-slate-500 text-sm mt-1">Try checking your spelling or selecting another filter option.</p>
+            </div>
+        </section>
+
+        <section id="whatsapp-section" class="py-12">
+            <div class="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 rounded-3xl p-8 sm:p-12 text-white shadow-2xl flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden border border-emerald-500/30">
+                <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="space-y-3 relative z-10">
+                    <span class="bg-emerald-400 text-slate-950 text-xs font-black px-3 py-1 rounded-full uppercase tracking-wider inline-flex items-center gap-1.5">
+                        <i class="fa-brands fa-whatsapp"></i> Direct Assistance
+                    </span>
+                    <h2 class="text-2xl sm:text-4xl font-black">Make your application stand out.</h2>
+                    <p class="text-emerald-100/90 text-sm sm:text-base max-w-xl">Get professional assistance to create your customized Europass CV and cover letter for European job applications & study admissions. Connect directly with us on WhatsApp.</p>
+                </div>
+                <div class="relative z-10 flex-shrink-0">
+                    <a href="https://wa.me/923000000000?text=Hello%20Hassan,%20I%20want%20to%20create%20an%20Europass%20CV%20and%20apply%20for%20European%20jobs" target="_blank" rel="noopener" class="pulse-whatsapp bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black px-8 py-4 rounded-2xl shadow-xl transition-all inline-flex items-center gap-3 text-base">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i> Contact on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="disclaimer" class="py-12 mb-12">
+            <div class="bg-amber-50/80 border border-amber-200/80 rounded-3xl p-6 sm:p-8 text-amber-900">
+                <div class="flex items-center gap-3 mb-3">
+                    <div class="w-10 h-10 rounded-xl bg-amber-200/60 flex items-center justify-center text-amber-800 text-lg">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h3 class="text-lg font-black tracking-tight">Legal Disclaimer & Fraud Warning</h3>
+                </div>
+                <p class="text-xs sm:text-sm leading-relaxed text-amber-900/90">
+                    <strong>EuropeHub</strong> is an independent information directory and resource compiler. We are not affiliated with the European Union, European Commission, or any national government. External links redirect to official portals for your convenience. We do not accept visa applications, issue visas, guarantee employment, or promise academic admission. Immigration laws, visa fees, and processing rules change frequently. Always verify details on the relevant official government website. Never share personal identity documents or make payments to unverified recruiters promising guaranteed visas.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-400 border-t border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-8 items-center">
+            <div>
+                <div class="flex items-center gap-2 mb-3">
+                    <div class="w-8 h-8 rounded-lg bg-amber-400 text-slate-950 font-black flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-earth-europe"></i>
+                    </div>
+                    <span class="text-lg font-black text-white tracking-wider">EUROPE<span class="text-amber-400">HUB</span></span>
+                </div>
+                <p class="text-xs text-slate-400">Official starting points for informed career and study journeys across Europe. Independent directory.</p>
+            </div>
+            <div class="text-xs space-y-1 md:text-center text-slate-400">
+                <p>Featured Links: <a href="https://eures.europa.eu/" class="text-amber-400 hover:underline">EURES Jobs</a> · <a href="https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en" class="text-amber-400 hover:underline">EU Immigration</a></p>
+                <p>© <span id="year"></span> EuropeHub. All rights reserved.</p>
+            </div>
+            <div class="text-xs md:text-right text-slate-400">
+                <p>Website architect & designer:</p>
+                <p class="text-amber-400 font-bold text-sm">Hassan Jatoi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const searchInput = document.getElementById('q');
+        const filterSelect = document.getElementById('filter');
+        const countryCards = [...document.querySelectorAll('.country')];
+        const emptyState = document.getElementById('empty');
+
+        function filterCountries() {
+            const query = searchInput.value.trim().toLowerCase();
+            const category = filterSelect.value;
+            let visibleCount = 0;
+
+            countryCards.forEach(card => {
+                const name = card.dataset.name.toLowerCase();
+                const types = card.dataset.type.split(' ');
+                
+                const matchesQuery = name.includes(query);
+                const matchesCategory = (category === 'all' || types.includes(category));
+
+                if (matchesQuery && matchesCategory) {
+                    card.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+
+            if (visibleCount === 0) {
+                emptyState.classList.remove('hidden');
+            } else {
+                emptyState.classList.add('hidden');
+            }
+        }
+
+        searchInput.addEventListener('input', filterCountries);
+        filterSelect.addEventListener('change', filterCountries);
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
